@@ -1,3 +1,3 @@
 # Concept Art Flamecraft
 
-![Logo Flamecraft](../images/flamecraft_portada.jpg){with='450px'}
+![Logo Flamecraft](../images/flamecraft_portada.jpg){width='450px'}
