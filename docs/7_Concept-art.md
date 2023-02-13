@@ -40,4 +40,3 @@
 
 <img src="../images/Tienda_PocionesYCafeteras.jpg" alt="Tienda de Dragones Artesanos de alquimia 'Pociones y Cafeteras'">
 
-<img src="../images/Tienda_CorreoEscamoso.jpg" alt="Tienda Especial de Dragones Artesanos 'Correo Escamoso'">
