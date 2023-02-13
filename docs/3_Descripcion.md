@@ -18,7 +18,7 @@ Detalle de los objetos del videojuego (GameObjects):
 
 Se implementan los siquientes Objetos del videojuego:
 
-- Escenario de fondo de la ciudad
+- Escenario de fondo de la ciudad en 2D
 - 121 Cartas Pequeñas 3D (Ref. original 44×67 mm):
     - 42 Cartas de Dragón Artesano
     - 36 Cartas de Dragón Selecto
@@ -42,12 +42,13 @@ Se implementan los siquientes Objetos del videojuego:
 
 - 6 Marcadores de Dragón 3D (Ref. original textura de plástico)
 - 6 Marcadores de Reputación 3D [sustituye] (Ref. original textura de madera)
-- Inserto Base de Gametrayz 3D
-- 2 Insertos para Recursos de Gametrayz
+- Panel de shockets Base de Gametrayz, de Recursos y de monedas (3D)
 - 24 Monedas 3D [sustituye] (Ref. original textura de Metal)
-- Bolsa 3D para las Monedas (Ref. original textura de tela)
 - 210 Fichas de Producto [sustituye] (Ref. original textura de Madera)
 
+La pantalla del juego mostrará la situación en el tablero y el jugador podrá hacer zoom + y zoom -
+El jugador tendrá botones para mostrar y ocultar las ventanas con sus recursos. 
+El peón de jugador 3D se irá desplazando de tienda en tienda y el marcador de vida de cada jugador es el que se desplaza por el tablero
 
 ## Mecánica
 
@@ -65,6 +66,8 @@ Al final de cada turno se reponen los dragones y los encantamientos, finalizando
 
 ### Las tiendas
 
+Las tiendas son el corazón de la Ciudad y aquellas que emplean Cremallamas son muy apreciadas. 
+
 6 escenarios 2D.
 En la esquina superior izquierda muestran el icono de uno de los seis tipos de **Recursos** o un efecto particular y en la parte superior derecha el texto con fondo de pergamino.
 
@@ -74,26 +77,39 @@ Y, opcionalmente, justo encima de estos espacios puede aparecer una banda como e
 En estos espacios se colocarán los **Dragones Artesanos**.
 
 
-### Los Dragones Artesanos
+## Los recursos
 
-Existe un **dragón artesano** para cada tipo de **recurso**, con un efecto de activación en su banda inferior. Aunque todos los dragones son en apariencia distintos, muestran el mismo efecto si pertenecen a un mismo tipo.
-
+Hay 6 tipos de **Recursos**, representados por iconos que están asociados a las tiendas y a los Dragones Artesanos
 
 ## El Peón de dragón
 
 Cada jugador dispondrá de un **Peón de Dragon** que irá desplazando entre estas tiendas para activar sus efectos, así como los de los dragones artesanos que se encuentren en ellas. Además el jugador podrá jugar dragones artesanos en ella. Si una tienda ya contiene peones de otros jugadores, el jugador activo deberá asumir una penalización.
 
 
-## Los recursos
+## Los Dragones Artesanos
 
-Hay 6 tipos de **Recursos** (los mismos a los que están asociados a tiendas y dragones artesanos):
+Existe un **dragón artesano** para cada tipo de **recurso**, con un efecto de activación en su banda inferior. Aunque todos los dragones son en apariencia distintos, muestran el mismo efecto si pertenecen a un mismo tipo.
 
-- Rayonula (Cyan)
-- Infusión (Magenta)
-- Miel (Amarillo)
-- Flores (Verde)
-- Barbacoa (Rojo)
-- Petra (Azul)
+### Habilidades
+
+Si decides utilizar una habilidad, tienes que resolverla por completo en la medida de lo posible (salvo que la habilidad incluya la expresión *"puedes"*)
+
+#### Asignar Dragones
+
+Cada vez que uses una habilidad para **Asignar** un Dragón Artesano a una tienda, tienes que aplicar todas las reglas de Asignación de Dragones (véase la sección), a menos que el texto de la habilidad indique otra cosa. 
+Esto significa que el Dragón que Asignes tiene que **coincidir** con el icono del espacio seleccionado (se mostrará un efecto hover cuando se sitúe sobre él) y, después de Asignarlo, obtienes la **recompensa** indicada, también mostrada con una animación de la recompensa a tu panel.
+
+Los Guardallamas comparten un vínculo especioal con los 6 Dragones Artesanos, lo cual inspera sus habilidades únicas:
+
+| Dragón artesano | Habilidad                                                                                 | Recurso | Color       |
+|-----------------|-------------------------------------------------------------------------------------------|---------|-------------|
+| Herrumbre       | Obtén 2 + 1 recurso de esa tienda o de un dragón artesano                                 | Yunque  | Azul marino |
+| Perrito         | Asigna 1 Dragón Artesano a la Ciudad                                                      | Carne   | Rojo        |
+| Miel            | Roba un Dragón Artesano                                                                   | Pan     | Ámbar       |
+| Corajoya        | Obtén 3 recursos diferentes a tu elección                                                 | Joya    | Cyan        |
+| Bayas           | Intercambia este con otro Dragón Artesano en la Cuidad y activa el fuego del nuevo dragón | Poción  | Morado      |
+| Loto            | Regala 1 recurso a otro jugador para obtener 2 vidas                                      | Hoja    | Verde       |
+
 
 Los jugadores irán acumulando estos recursos, teniendo un límite de siete unidades de cada tipo (debiendo descartar el exceso al final de cada turno).
 
