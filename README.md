@@ -14,5 +14,9 @@
 
 ## Concept art
 
+Adrián Nicolás Yáñez Viceiro
+Gabriel Gómez Mera
+Sonia Álvarez Brasa
+
 
 
