@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-**Famecraft 3D** es un _eurogame_ online multiplataforma de peso ligero muy *draconiano*, con un **adorable aspecto visual** y con una mecánica base de colocación de trabajadores con su propias peculiaridades.
+**Famecraft 3D** es un _eurogame_ online multiplataforma de peso ligero muy *draconiano*, con un **adorable aspecto visual** y una mecánica base de colocación de trabajadores con su propias peculiaridades.
 
 Plantea la premisa de recolectar recursos para gastarlos de forma casi inmediata formando conjuntos y en que las acciones las vas creando a medida que avanza el juego.
 
@@ -11,7 +11,7 @@ Plantea la premisa de recolectar recursos para gastarlos de forma casi inmediata
 **Edad:**               14+   
 **Género / Mecánicas:** Eurogame - Colocación de distintos tipos de trabajadores  
 
-Cada jugador moveis un único peón en los distintos espacios de acción y en cada uno tendrás 2 opciones:
+Cada jugador moveis un único peón en los distintos espacios de acción y en cada uno tendr 2 opciones:
 
 - por un lado, recolectar recursos en función de las cartas que van jugando sobre la localización correspondiente
 
@@ -38,103 +38,16 @@ Es un juego bien equilibrado en el que los efectos están pensados para mantener
 
 ## Mecánica
 
-**Flamecraft 3D** es un peso medio con mecánica principal de colocación de trabajadores (un solo trabajador).
-Tendremos un tablero principal con una serie de tiendas asociadas a uno de los seis recursos y con espacio para hasta 3 dragones artesanos, que también proporcionan un recurso de los seis posibles.
+Tendrás un tablero principal con una serie de tiendas asociadas a cada uno de los seis recursos y con espacio para un máximo de 3 dragones artesanos, que también te proporcionan un recurso de los seis posibles.
 
-El objetivo es intentar anotar la mayor cantidad de puntos posibles completando encantamientos y cumpliendo los requisitos de dragones selectos.
-En cada turno el jugador debe desplazar su peón a una tienda distinta (si estuviese ocupada por otros peones, el jugador activo deberá recompensar con recursos a los jugadores presentes) y escogerá entre recolectar recursos (uno por símbolo visible) pudiendo activar el efecto de la tienda (si lo tuviese), jugar un dragón (recibiendo una recompensa) y activar un dragón presente, o completar un encantamiento cuyo símbolo coincida con la tienda, devolviendo a la reserva los recursos indicados para obtener las recompensas correspondientes y activar todos los dragones presentes en la tienda.
+Tu objetivo es intentar anotar la mayor cantidad de puntos posibles completando encantamientos y cumpliendo los requisitos de dragones selectos.
+
+En cada turno debes desplazar tu peón a una tienda distinta (si estuviese ocupada por otros jugadores deberás recompensar con recursos a los jugadores presentes) y escogerás entre recolectar recursos (uno por símbolo visible) pudiendo activar el efecto de la tienda (si lo tuviese), jugar un dragón (recibiendo una recompensa) y activar un dragón presente, o completar un encantamiento cuyo símbolo coincida con la tienda, devolviendo a la reserva los recursos indicados para obtener las recompensas correspondientes y activar todos los dragones presentes en la tienda.
+
 Si una tienda se completa, debe revelarse una nueva tienda para que siempre haya espacios en los que jugar dragones (que se consiguen de un suministro común).
 
 Al final de cada turno se reponen los dragones y los encantamientos, finalizando la partida cuando se agote uno de estos mazos.
 
-
-## Conceptos básicos
-
-### Las tiendas
-
-Las tiendas son el corazón de la Ciudad y aquellas que emplean Cremallamas son muy apreciadas.
-
-6 escenarios 2D.
-En la esquina superior izquierda muestran el icono de uno de los seis tipos de **Recursos** o un efecto particular y en la parte superior derecha el texto con fondo de pergamino.
-
-En la banda inferior encontramos tres espacios para colocar **Dragones Artesanos** con unos determinados tipos y unas recompensas.
-
-Y, opcionalmente, justo encima de estos espacios puede aparecer una banda como efecto asociado a la tienda.
-En estos espacios se colocarán los **Dragones Artesanos**.
-
-
-## Los recursos
-
-Hay 6 tipos de **Recursos**, representados por iconos que están asociados a las tiendas y a los Dragones Artesanos
-
-## El Peón de dragón
-
-Cada jugador dispondrá de un **Peón de Dragon** que irá desplazando entre estas tiendas para activar sus efectos, así como los de los dragones artesanos que se encuentren en ellas. Además el jugador podrá jugar dragones artesanos en ella. Si una tienda ya contiene peones de otros jugadores, el jugador activo deberá asumir una penalización.
-
-
-## Los Dragones Artesanos
-
-Existe un **dragón artesano** para cada tipo de **recurso**, con un efecto de activación en su banda inferior. Aunque todos los dragones son en apariencia distintos, muestran el mismo efecto si pertenecen a un mismo tipo.
-
-### Habilidades
-
-Si decides utilizar una habilidad, tienes que resolverla por completo en la medida de lo posible (salvo que la habilidad incluya la expresión *"puedes"*)
-
-#### Asignar Dragones
-
-Cada vez que uses una habilidad para **Asignar** un Dragón Artesano a una tienda, tienes que aplicar todas las reglas de Asignación de Dragones (véase la sección), a menos que el texto de la habilidad indique otra cosa.
-Esto significa que el Dragón que Asignes tiene que **coincidir** con el icono del espacio seleccionado (se mostrará un efecto hover cuando se sitúe sobre él) y, después de Asignarlo, obtienes la **recompensa** indicada, también mostrada con una animación de la recompensa a tu panel.
-
-Los Guardallamas comparten un vínculo especioal con los 6 Dragones Artesanos, lo cual inspera sus habilidades únicas:
-
-| Dragón Artesano | Recurso  | Color       | Habilidad                                                                                 |
-|-----------------|----------|-------------|-------------------------------------------------------------------------------------------|
-| Herrumbre       | Hierro   | Azul marino | Obtén 2 + 1 recurso de esa tienda o de un dragón artesano                                 |
-| Perrito         | Carne    | Rojo        | Asigna 1 Dragón Artesano a la Ciudad                                                      |
-| Miel            | Pan      | Ámbar       | Roba un Dragón Artesano                                                                   |
-| Corajoya        | Cristal  | Cyan        | Obtén 3 recursos diferentes de tu elección                                                |
-| Bayas           | Pociones | Morado      | Intercambia este con otro Dragón Artesano en la Cuidad y activa el fuego del nuevo dragón |
-| Loto            | Plantas  | Verde       | Regala 1 recurso a otro jugador para obtener 2 vidas                                      |
-
-
-Los jugadores irán acumulando estos recursos, teniendo un límite de siete unidades de cada tipo (debiendo descartar el exceso al final de cada turno).
-
-
-## Las Monedas
-
-Funcionan como comodín a la hora de completar encantamientos (aunque solo se podrá sustituir un recurso de cada tipo de los requeridos por el encantamiento por monedas) y proporcionarán puntos al final de la partida.
-
-
-## Puntos de Victoria
-
-El objetivo principal del juego es el de acumular **Puntos de Victoria**.
-
-Para ello **cada jugador contará con un marcador en forma de corazón** con el color de cada recurso, que irá progresando con el track de puntuación.
-
-
-## Encantamientos
-
-La vía principal para obtener **puntos de victoria** será completando **Encantamientos**, cada uno de ellos asociados a un tipo de **recurso**.
-
-Estos encantamientos muestran un conjunto de recursos requeridos para completarlos y una recompensa en su banda inferior, consistente en puntos de victoria, monedas y/o dragones (artesanos o selectos).
-
-Para completar encantamientos habrá que visitar una tienda del tipo coincidente, quedando solapado bajo la tienda, proporcionando más recursos en próximas visitas.
-
-
-## Dragones selectos
-
-Alternativamente tenemos los **Dragones Selectos**, que proporcionarán puntos de victoria cumpliendo ciertos requisitos.
-
-Hay dos tipos de dragones selectos:
-- los de puntuación durante la partida (con símbolo de sol)
-- y los de puntuación de final de partida (con símbolo de luna).
-
-Un jugador podrá jugar cualquier cantidad de dragones selectos con símbolo de sol durante un mismo turno.
-
-
-## El tablero de juego
-
-El circuito que sirve de track de puntuación con casillas numeradas del 1 al 50. Este track encierra la zona de encantamientos y dragones selectos, quedando a un lado la zona de suministro de dragones artesanos.
 
 ## Objetos del videojuego
 
@@ -175,6 +88,99 @@ Se implementan los siquientes Objetos del videojuego:
 La pantalla del juego mostrará la situación en el tablero y el jugador podrá hacer zoom + y zoom -
 El jugador tendrá botones para mostrar y ocultar las ventanas con sus recursos.
 El peón de jugador 3D se irá desplazando de tienda en tienda y el marcador de vida de cada jugador es el que se desplaza por el tablero
+
+
+## Conceptos básicos
+
+### Las tiendas
+
+Las tiendas son el corazón de la Ciudad y aquellas que emplean Cremallamas son muy apreciadas.
+
+6 escenarios 2D.
+En la esquina superior izquierda muestran el icono de uno de los seis tipos de **Recursos** o un efecto particular y en la parte superior derecha el texto con fondo de pergamino.
+
+En la banda inferior encontramos tres espacios para colocar **Dragones Artesanos** con unos determinados tipos y unas recompensas.
+
+Y, opcionalmente, justo encima de estos espacios puede aparecer una banda como efecto asociado a la tienda.
+En estos espacios se colocarán los **Dragones Artesanos**.
+
+
+### Los recursos
+
+Hay 6 tipos de **Recursos**, representados por iconos que están asociados a las tiendas y a los Dragones Artesanos
+
+
+### El Peón de dragón
+
+Cada jugador dispondrá de un **Peón de Dragon** que irá desplazando entre estas tiendas para activar sus efectos, así como los de los dragones artesanos que se encuentren en ellas. Además el jugador podrá jugar dragones artesanos en ella. Si una tienda ya contiene peones de otros jugadores, el jugador activo deberá asumir una penalización.
+
+
+### Los Dragones Artesanos
+
+Existe un **dragón artesano** para cada tipo de **recurso**, con un efecto de activación en su banda inferior. Aunque todos los dragones son en apariencia distintos, muestran el mismo efecto si pertenecen a un mismo tipo.
+
+#### Habilidades
+
+Si decides utilizar una habilidad, tienes que resolverla por completo en la medida de lo posible (salvo que la habilidad incluya la expresión *"puedes"*)
+
+#### Asignar Dragones
+
+Cada vez que uses una habilidad para **Asignar** un Dragón Artesano a una tienda, tienes que aplicar todas las reglas de Asignación de Dragones (véase la sección), a menos que el texto de la habilidad indique otra cosa.
+Esto significa que el Dragón que Asignes tiene que **coincidir** con el icono del espacio seleccionado (se mostrará un efecto hover cuando se sitúe sobre él) y, después de Asignarlo, obtienes la **recompensa** indicada, también mostrada con una animación de la recompensa a tu panel.
+
+Los Guardallamas comparten un vínculo especioal con los 6 Dragones Artesanos, lo cual inspera sus habilidades únicas:
+
+| Dragón Artesano | Recurso  | Color       | Habilidad                                                                                 |
+|-----------------|----------|-------------|-------------------------------------------------------------------------------------------|
+| Herrumbre       | Hierro   | Azul marino | Obtén 2 + 1 recurso de esa tienda o de un dragón artesano                                 |
+| Perrito         | Carne    | Rojo        | Asigna 1 Dragón Artesano a la Ciudad                                                      |
+| Miel            | Pan      | Ámbar       | Roba un Dragón Artesano                                                                   |
+| Corajoya        | Cristal  | Cyan        | Obtén 3 recursos diferentes de tu elección                                                |
+| Bayas           | Pociones | Morado      | Intercambia este con otro Dragón Artesano en la Cuidad y activa el fuego del nuevo dragón |
+| Loto            | Plantas  | Verde       | Regala 1 recurso a otro jugador para obtener 2 vidas                                      |
+
+
+Los jugadores irán acumulando estos recursos, teniendo un límite de siete unidades de cada tipo (debiendo descartar el exceso al final de cada turno).
+
+
+### Las Monedas
+
+Funcionan como comodín a la hora de completar encantamientos (aunque solo se podrá sustituir un recurso de cada tipo de los requeridos por el encantamiento por monedas) y proporcionarán puntos al final de la partida.
+
+
+### Puntos de Victoria
+
+El objetivo principal del juego es el de acumular **Puntos de Victoria**.
+
+Para ello **cada jugador contará con un marcador en forma de corazón** con el color de cada recurso, que irá progresando con el track de puntuación.
+
+
+### Encantamientos
+
+La vía principal para obtener **puntos de victoria** será completando **Encantamientos**, cada uno de ellos asociados a un tipo de **recurso**.
+
+Estos encantamientos muestran un conjunto de recursos requeridos para completarlos y una recompensa en su banda inferior, consistente en puntos de victoria, monedas y/o dragones (artesanos o selectos).
+
+Para completar encantamientos habrá que visitar una tienda del tipo coincidente, quedando solapado bajo la tienda, proporcionando más recursos en próximas visitas.
+
+
+### Dragones selectos
+
+Alternativamente tenemos los **Dragones Selectos**, que proporcionarán puntos de victoria cumpliendo ciertos requisitos.
+
+Hay dos tipos de dragones selectos:
+
+- los de puntuación durante la partida (con símbolo de sol)
+
+- y los de puntuación de final de partida (con símbolo de luna).
+
+Un jugador podrá jugar cualquier cantidad de dragones selectos con símbolo de sol durante un mismo turno.
+
+
+## El tablero de juego
+
+El circuito que sirve de track de puntuación con casillas numeradas del 1 al 50. Este track encierra la zona de encantamientos y dragones selectos, quedando a un lado la zona de suministro de dragones artesanos.
+
 
 
 # Inicio de la partida
