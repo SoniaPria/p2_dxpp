@@ -25,7 +25,7 @@
 ## Arte de las cartas de Tienda:
 
 **Simbolos de Cada Tienda**
-<img src="../images/Tiendas_Simbolos.JPG" alt="Simbolos de las Tiendas con sus normas">
+<img src="../images/Tiendas_Simbolos.jpg" alt="Simbolos de las Tiendas con sus normas">
 
 *'Fuego Chamuscador' Tienda de Dragones Artesanos Chefs*
 <img src="../images/Tienda_FuegoChamuscador.jpg" alt="Tienda de Dragones Artesanos de cocina 'Fuego Chamuscador'">
@@ -42,11 +42,11 @@
 *'Piel de la Balanza' Tienda de Dragones Artesanos Joyeros*
 <img src="../images/Tienda_PielDeLaBalanza.jpg" alt="Tienda de Dragones Artesanos de joyería 'Piel de la Balanza'">
 
-*'Ritmo Salvaje' Tienda de Dragones Artesanos Herreros*
-<img src="../images/Tienda_RitmoSalvaje.jpg" alt="Tienda de Dragones Artesanos de forja 'Ritmo Salvaje'">
-
 *'Pociones y Cafeteras' Tienda de Dragones Artesanos Alquimistas*
 <img src="../images/Tienda_PocionesYCafeteras.jpg" alt="Tienda de Dragones Artesanos de alquimia 'Pociones y Cafeteras'">
+
+*'Ritmo Salvaje' Tienda de Dragones Artesanos Herreros*
+<img src="../images/Tienda_RitmoSalvaje.jpg" alt="Tienda de Dragones Artesanos de forja 'Ritmo Salvaje'">
 
 
 ## Detalles de Tokens, Tarjetas y Sockets:
@@ -55,7 +55,7 @@
 
 <img src="../images/FlamecraftTablero.jpg" alt="Detalle del Tablero Vacío">
 
-<img src="../images/FlamecraftSockets.jpg" alt="Detalle Socket 'Menú de Acción' del Jugador">
+<img src="../images/FlamecraftSocket.jpg" alt="Detalle Socket 'Menú de Acción' del Jugador">
 
 <img src="../images/FlamecraftPeones.jpg" alt="Detalle de los Tokens Peones">
 
