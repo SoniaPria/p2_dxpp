@@ -52,8 +52,10 @@ Se escoge aleatoriamente al jugador inicial. En partidas de 4/5 jugadores, el cu
 Una partida de Flamecraft 3D se desarrolla a lo largo de un número indeterminado de turnos alternados por los jugadores o jugadoras conectados, comenzando por inicial y continuando en el sentido de las agujas del reloj.
 En cada turno, el jugador activo debe desplazar su peón de dragón a una tienda distinta de la que ocupaba al comienzo del turno. Si en la tienda de destino hay uno o más peones de dragón de otros jugadores, deberá entregar un recurso a cada uno de esos jugadores
 ### Fin de Partida
+
 Cuando se roba la última carta del mazo de Dragones Artesanos o del mazo de encantamientos, se activa el final del juego.
 Cada jugador tendrá un turno más incluido quien haya robado la última carta.
+
 ---
 
 
