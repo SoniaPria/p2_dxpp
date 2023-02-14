@@ -24,7 +24,7 @@
 
 ## Arte de las cartas de Tienda:
 
-**Simbolos de Cada Tienda**
+> **Simbolos de Cada Tienda**
 <img src="../images/Tiendas_Simbolos.jpg" alt="Simbolos de las Tiendas con sus normas">
 
 *'Fuego Chamuscador' Tienda de Dragones Artesanos Chefs*
