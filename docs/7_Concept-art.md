@@ -15,29 +15,37 @@
 
 
 ## Estilo del Arte de los Dragones:
-> Arte Dragones Artesanos
+> ***Arte Dragones Artesanos***
 <img src="../images/ArtDragonesArtesanos.jpg" alt="Arte Dragones Artesanos">
 
-> Arte Dragones Selectos
+> ***Arte Dragones Selectos***
 <img src="../images/ArtDragonesSelectos.jpg" alt="Arte Dragones Selectos">
 
 
 ## Arte de las cartas de Tienda:
 
+**Simbolos de Cada Tienda**
 <img src="../images/Tiendas_Simbolos.JPG" alt="Simbolos de las Tiendas con sus normas">
 
+*'Fuego Chamuscador' Tienda de Dragones Artesanos Chefs*
 <img src="../images/Tienda_FuegoChamuscador.jpg" alt="Tienda de Dragones Artesanos de cocina 'Fuego Chamuscador'">
 
+*'La Pequeña Dragona' Tienda de Dragones Artesanos Panaderos*
 <img src="../images/Tienda_LaPequeñaDragona.jpg" alt="Tienda de Dragones Artesanos de panadería 'La Pequeña Dragona'">
 
+*'Sabio de Savia' Tienda de Dragones Artesanos Plantas*
 <img src="../images/Tienda_SabioDeSavia.jpg" alt="Tienda de Dragones Artesanos de naturaleza 'Sabio de Savia'">
 
+*'Torno de Salvación' Tienda de Dragones Artesanos Herreros*
 <img src="../images/Tienda_TornodeSalvación.jpg" alt="Tienda de Dragones Artesanos de forja 'Torno de Salvación'">
 
+*'Piel de la Balanza' Tienda de Dragones Artesanos Joyeros*
 <img src="../images/Tienda_PielDeLaBalanza.jpg" alt="Tienda de Dragones Artesanos de joyería 'Piel de la Balanza'">
 
+*'Ritmo Salvaje' Tienda de Dragones Artesanos Herreros*
 <img src="../images/Tienda_RitmoSalvaje.jpg" alt="Tienda de Dragones Artesanos de forja 'Ritmo Salvaje'">
 
+*'Pociones y Cafeteras' Tienda de Dragones Artesanos Alquimistas*
 <img src="../images/Tienda_PocionesYCafeteras.jpg" alt="Tienda de Dragones Artesanos de alquimia 'Pociones y Cafeteras'">
 
 
